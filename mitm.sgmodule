@@ -1,0 +1,5 @@
+#!name=MitM
+#!desc=仅限签到部分
+
+[MITM]
+hostname = api-hdcj.9w9.com, *.bilibili.com, *.rrys2019.com, ios.zmzapi.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, *.rr.tv, *.v2ex.com, i.meituan.com, api.m.jd.com, tieba.baidu.com, c.tieba.baidu.com, api.1sapp.com, act.10010.com, m.client.10010.com, daojia.jd.com, h5.ele.me, mp.weixin.qq.com, weclub.ccc.cmbchina.com, dlercloud.com, *.video.qq.com, mobwsa.ximalaya.com
