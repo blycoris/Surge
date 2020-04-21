@@ -40,4 +40,4 @@ cron "20 0-3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/s
 # 美团外卖
 cron "20 0-3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js
 # 爱奇艺
-cron "20 0-3 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/iQIYI-DailyBonus/iQIYI_DailyBonus_QX.js
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js
