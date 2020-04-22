@@ -26,11 +26,11 @@ cron "10 1-3 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/
 # 京东到家
 type=cron "10 0-7 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js
 # 天气
-cron "30,35 9 * * *" script-path=weather_pro.js
+cron "0 8,12,15,21 * * *" script-path=weather_pro.js
 # 贴吧
 cron "20 0-3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
 # 趣头条
-cron "30,35 9 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
+cron "0 0-23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
 # 饿了么
 cron "10 0-3 0 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
 # 腾讯视频
