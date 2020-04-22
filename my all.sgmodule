@@ -26,11 +26,11 @@ v2ex = type=cron,cronxp="10 0-7 0 * * *",script-path=https://raw.githubuserconte
 # 京东到家
 京东到家 = type=cron,cronxp="10 0-7 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js
 # 天气
-天气 = type=cron,cronxp="13 9 * * *",script-path=weather_pro.js
+天气 = type=cron,cronxp="15 9 * * *",script-path=weather_pro.js
 # 贴吧
 贴吧 = type=cron,cronxp="20 0-3 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
 # 趣头条
-趣头条 = type=cron,cronxp="13 9 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
+趣头条 = type=cron,cronxp="15 9 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
 # 饿了么
 饿了么 = type=cron,cronxp="10 0-3 0 * * *",script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
 # 腾讯视频
