@@ -71,6 +71,6 @@ cron "18 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Qu
 cron "18 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
 # 滴滴出行
 cron "0 6 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
-cron "0 59 23 * * *" script-path=ttps://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
+cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
 # 115
 cron "19 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
