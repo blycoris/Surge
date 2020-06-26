@@ -73,3 +73,7 @@ cron "11 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Qua
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
+# 115
+cron "18 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
+# 便利蜂
+cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
