@@ -57,5 +57,15 @@ http-request ^https:\/\/h5\.bianlifeng\.com\/meepo\/taskCenter\/home\/v\d script
 http-request ^https:\/\/vip\.heytea\.com\/api\/service-member\/vip\/task$ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/HEYTEA/HEYTEA.js
 # 奈雪
 http-request ^https:\/\/webapi\.qmai\.cn\/web\/cy\/v\d\/store\/template-scene script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js
+# 网易新闻
+http-request ^https:\/\/(.*?)c\.m\.163\.com\/uc\/api\/sign\/v3\/commit script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true
+# 蔚来
+http-request ^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.cookie.js
+# 苏宁易购
+http-request ^https:\/\/passport.suning.com\/ids\/login$ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js, requires-body=true
+http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+
 [MITM]
-hostname = %APPEND%  *.iqiyi.com, api-hdcj.9w9.com, *.bilibili.com, *.rrys2019.com, ios.zmzapi.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, *.rr.tv, *.v2ex.com, i.meituan.com, api.m.jd.com, tieba.baidu.com, c.tieba.baidu.com, api.1sapp.com, act.10010.com, m.client.10010.com, daojia.jd.com, h5.ele.me, mp.weixin.qq.com, dlercloud.com, *.video.qq.com, mobwsa.ximalaya.com, promotion.waimai.meituan.com, music.163.com, api.inews.qq.com, draw.jdfcloud.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com， proapi.115.com, h5.bianlifeng.com, vip.heytea.com, webapi.qmai.cn
+hostname = %APPEND%  *.iqiyi.com, api-hdcj.9w9.com, *.bilibili.com, *.rrys2019.com, ios.zmzapi.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, *.rr.tv, *.v2ex.com, i.meituan.com, api.m.jd.com, tieba.baidu.com, c.tieba.baidu.com, api.1sapp.com, act.10010.com, m.client.10010.com, daojia.jd.com, h5.ele.me, mp.weixin.qq.com, dlercloud.com, *.video.qq.com, mobwsa.ximalaya.com, promotion.waimai.meituan.com, music.163.com, api.inews.qq.com, draw.jdfcloud.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com， proapi.115.com, h5.bianlifeng.com, vip.heytea.com, webapi.qmai.cn, *.m.163.com, app.nio.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com
