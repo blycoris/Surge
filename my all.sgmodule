@@ -87,3 +87,9 @@ cron "22 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "23 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js
 # 苏宁易购
 cron "24 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js
+# 电视家
+cron "0 7,12,20 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js
+# 微博
+cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+# 新浪新闻
+cron "26 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
