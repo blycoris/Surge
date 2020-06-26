@@ -81,5 +81,3 @@ cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/
 cron "20 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/HEYTEA/HEYTEA.js
 # 奈雪
 cron "21 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js
-# 分期乐
-cron "22 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js
