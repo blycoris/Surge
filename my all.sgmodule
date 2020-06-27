@@ -7,9 +7,6 @@
 # 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 # 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
 cron "1 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
-# 美团
-# 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
-cron "2 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
 # 人人视频
 # 打开 APP, 访问下`个人中心`
 cron "3 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
@@ -34,9 +31,6 @@ cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Scr
 # 京东到家
 访问APP签到一次
 cron "10 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js
-# 京东来客有礼
-# 微信搜索’来客有礼‘小程序,登陆京东账号，点击’领京豆->翻牌‘
-cron "35 5 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
 # 天气
 cron "0 8,12,16,21 * * *" script-path=weather_pro.js
 # 贴吧
