@@ -30,9 +30,7 @@ cron "8 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scri
 cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 # 京东到家
 访问APP签到一次
-cron "10 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js
-# 天气
-cron "0 8,12,16,21 * * *" script-path=weather_pro.js
+cron "10 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.js
 # 贴吧
 # 打开App,点击'我的'
 cron "13 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
@@ -81,8 +79,6 @@ cron "22 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "23 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js
 # 苏宁易购
 cron "24 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js
-# 电视家
-cron "0 7,12,20 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js
 # 微博
 cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 # 新浪新闻
