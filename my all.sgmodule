@@ -86,4 +86,4 @@ cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 # 新浪新闻
 cron "26 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
 # 中青看点
-cron "27 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+cron "35 27 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
