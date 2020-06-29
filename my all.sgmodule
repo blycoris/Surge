@@ -64,6 +64,8 @@ cron "21 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Qu
 cron "31 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js
 # > 京东种豆得豆
 cron "11 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
+# 摇钱树
+cron "*/6 * * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree2.js
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
