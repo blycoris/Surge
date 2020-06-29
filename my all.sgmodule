@@ -92,4 +92,5 @@ cron "35 27 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scri
 # 万达影城
 cron "35 28 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js
 # 什么值得买
+# 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 cron "35 29 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js
