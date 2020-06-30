@@ -6,7 +6,7 @@
 # 10010
 # 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 # 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
-cron "2 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
+cron "15 2 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
 # 人人视频
 # 打开 APP, 访问下`个人中心`
 cron "3 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
@@ -65,7 +65,7 @@ cron "31 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Quantu
 # > 京东种豆得豆
 cron "11 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
 # 摇钱树
-cron "*/6 * * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree2.js
+cron "20 */6 * * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree2.js
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
