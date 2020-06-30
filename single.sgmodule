@@ -1,0 +1,33 @@
+#!name=Check In
+#!desc=自用集合，随时更新。
+
+[Script]
+# 定时签到
+# 10010
+# 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
+# 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
+cron "2 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
+# 京东
+访问bean.m.jd.com并签到
+cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+# 趣头条
+# 打开 APP 进入签到:  `右上角` > `签到`
+# 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
+# 首页金币奖励:此Cookie在首页的推荐中随机出现,随机获取,并不一定会出现。
+cron "0 0-23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
+# 腾讯新闻
+# 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
+cron "0 */5 8-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js
+# > 京东农场
+cron "2 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js
+# > 京东萌宠
+cron "21 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
+# > 京东宠汪汪
+cron "31 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js
+# > 京东种豆得豆
+cron "11 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
+# 摇钱树
+cron "*/6 * * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree2.js
+cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
+# 微博
+cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
