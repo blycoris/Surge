@@ -6,7 +6,7 @@
 # 10010
 # 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 # 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
-cron "15 2 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true
+cron "2 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true
 # 人人视频
 # 打开 APP, 访问下`个人中心`
 cron "3 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,wake-system=true
@@ -27,13 +27,13 @@ cron "7 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scri
 cron "8 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,wake-system=true
 # 京东
 访问bean.m.jd.com并签到
-cron "9 0,1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true
+cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true
 # 京东到家
 访问APP签到一次
 cron "10 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,wake-system=true
 # 贴吧
 # 打开App,点击'我的'
-cron "13 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
+cron "11 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
 # 趣头条
 # 打开 APP 进入签到:  `右上角` > `签到`
 # 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
@@ -41,46 +41,44 @@ cron "13 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "0 0-23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,wake-system=true
 # 饿了么
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
-cron "14 0,1 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,wake-system=true
-cron "14 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js,wake-system=true
+cron "12 0,1 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,wake-system=true
+cron "12 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js,wake-system=true
 # 喜马拉雅
 # 打开 APP, 访问下右下角`账号`
-cron "15 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,wake-system=true
+cron "13 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,wake-system=true
 # 美团外卖
 # 打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
-cron "16 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js,wake-system=true
+#cron "14 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js,wake-system=true
 # 美团
-cron "16 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,wake-system=true
+cron "14 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,wake-system=true
 # 网易云音乐
-cron "17 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,wake-system=true
+cron "15 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,wake-system=true
 # 腾讯新闻
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 cron "0 */5 8-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js,wake-system=true
 # > 京东农场
 cron "2 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js,wake-system=true
 # > 京东萌宠
-cron "21 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js,wake-system=true
+cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js,wake-system=true
 # > 京东宠汪汪
-cron "31 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true
+cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true
 # > 京东种豆得豆
-cron "11 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js,wake-system=true
+cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js,wake-system=true
 # 摇钱树
 cron "20 */6 * * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree2.js,wake-system=true
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,wake-system=true
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
 # 115
-cron "18 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js,wake-system=true
+cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js,wake-system=true
 # 便利蜂
-cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,wake-system=true
+cron "20 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,wake-system=true
 # 喜茶
-cron "20 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/HEYTEA/HEYTEA.js,wake-system=true
+cron "21 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/HEYTEA/HEYTEA.js,wake-system=true
 # 奈雪
-cron "21 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js,wake-system=true
+cron "22 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js,wake-system=true
 # 网易新闻
-cron "22 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,wake-system=true
-# 蔚来
-cron "23 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js,wake-system=true
+cron "23 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,wake-system=true
 # 苏宁易购
 cron "24 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,wake-system=true
 # 微博
@@ -88,11 +86,13 @@ cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 # 新浪新闻
 cron "26 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js,wake-system=true
 # 中青看点
-cron "35 27 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,wake-system=true
+cron "27 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,wake-system=true
 # 万达影城
-cron "35 28 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
+cron "28 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
 # 什么值得买
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
-cron "35 29 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,wake-system=true
+cron "29 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,wake-system=true
 # 威锋网
-cron "35 31 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,wake-system=true
+cron "30 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,wake-system=true
+# 吾爱破解
+cron "31 0,1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,wake-system=true
