@@ -64,8 +64,10 @@ cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Qu
 cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true
 # > 京东种豆得豆
 cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js,wake-system=true
-# 摇钱树
-cron "20 */6 * * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree2.js,wake-system=true
+# 京东摇钱树
+cron "20 */6 * * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_moneyTree.js,wake-system=true
+# 京东加速
+cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_speed.js,wake-system=true
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,wake-system=true
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
@@ -96,3 +98,5 @@ cron "29 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "30 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,wake-system=true
 # 吾爱破解
 cron "31 0,1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,wake-system=true
+# 惠头条
+cron "*/2 0-11/1 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/htt_task.js,wake-system=true
