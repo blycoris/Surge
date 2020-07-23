@@ -46,7 +46,7 @@ https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json url script-request-body you
 hostname = *.youth.cn, ios.baertt.com 
 ~~~~~~~~~~~~~~~~
 */
-const notifyInterval = 0  //通知间隔，默认抽奖每10次通知一次
+const notifyInterval = 50  //通知间隔，默认抽奖每10次通知一次
 const logs = 0;   //0为关闭日志，1为开启
 const CookieName = "中青看点"
 const signheaderKey = 'youthheader_zq'
