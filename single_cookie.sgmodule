@@ -1,0 +1,77 @@
+#!name=Cookie
+#!desc=签到脚本获取 Cookie. 您可以在使用后将其禁用，以免产生不必要的 MitM.
+#!system=ios
+
+[Script]
+# 10010
+http-request ^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, requires-body=true
+http-request ^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, requires-body=true
+http-request ^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, requires-body=true
+# 趣头条
+http-request ^https:\/\/api\.1sapp\.com\/sign\/info? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+http-request ^https:\/\/api\.1sapp\.com\/content\/readV2? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+http-request ^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+# 京东
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+# 京东到家
+http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
+# 百度贴吧
+http-request ^https?:\/\/tieba\.baidu\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
+# Bilibili
+http-request ^https:\/\/(www|live)\.bilibili\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
+# 字幕组
+http-request ^https?:\/\/(www\.)?rrys2019\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
+http-request ^http:\/\/ios.zmzapi.com\/index.php.*a=(mobile_)?login script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
+# 顺丰
+http-request ^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+http-request ^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+# 人人
+http-request ^https:\/\/api\.rr\.tv\/user\/profile script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
+# 美团
+http-request ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, requires-body=true
+# 饿了么
+http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
+# 喜马拉雅
+http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+# 美团外卖
+http-request ^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
+http-request ^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,requires-body=true
+# 网易云音乐
+http-request ^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,requires-body=true
+# 腾讯新闻
+http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js
+http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js
+# 滴滴出行
+http-request ^https:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/index\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_ticket.js
+http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
+# 115
+http-request ^https?:\/\/proapi\.115\.com\/ios\/user\/takespc\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
+# 便利蜂
+http-request ^https:\/\/h5\.bianlifeng\.com\/meepo\/taskCenter\/home\/v\d script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
+# 网易新闻
+http-request ^https:\/\/(.*?)c\.m\.163\.com\/uc\/api\/sign\/v3\/commit script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true
+# 苏宁易购
+http-request ^https:\/\/passport.suning.com\/ids\/login$ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js, requires-body=true
+http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+# 微博
+http-request https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+http-request https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+# 新浪新闻
+http-request https:\/\/newsapi\.sina\.cn\/\?resource=hbpage&newsId=HB-1-sina_gold_center script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
+http-request https:\/\/newsapi\.sina\.cn\/\?resource=userpoint\/signIn script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
+# 中青看点
+http-request https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+http-request https:\/\/ios\.baertt\.com\/v5\/article\/complete script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+http-request https:\/\/ios\.baertt\.com\/v5\/article\/red_packet script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+http-request https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+# 万达影城
+http-request ^https:\/\/user-api-prd-mx\.wandafilm\.com\/user\/islogin\.api script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js
+# 什么值得买
+http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
+# 吾爱破解
+http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+
+[MITM]
+hostname = %APPEND%  *.iqiyi.com, *.bilibili.com, *.rrys2019.com, ios.zmzapi.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, *.rr.tv, i.meituan.com, api.m.jd.com, tieba.baidu.com, c.tieba.baidu.com, api.1sapp.com, act.10010.com, m.client.10010.com, daojia.jd.com, h5.ele.me, mp.weixin.qq.com, *.video.qq.com, mobwsa.ximalaya.com, promotion.waimai.meituan.com, music.163.com, api.inews.qq.com, draw.jdfcloud.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com， proapi.115.com, webapi.qmai.cn, *.m.163.com, app.nio.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, user-api-prd-mx.wandafilm.com, *.smzdm.com,  www.52pojie.cn
