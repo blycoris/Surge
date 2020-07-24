@@ -90,15 +90,15 @@ cron "30 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 # 吾爱破解
 cron "31 0,1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,wake-system=true
 # > 京东农场
-cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js,wake-system=true
+cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js,wake-system=true,timeout=30s
 # > 京东萌宠
-cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js,wake-system=true
+cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js,wake-system=true,timeout=30s
 # > 京东宠汪汪
-cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true
+cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true,timeout=30s
 # > 京东种豆得豆
-cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js,wake-system=true
+cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js,wake-system=true,timeout=30s
 # 京东摇钱树
-cron "21 */5 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_moneyTree.js,wake-system=true
+cron "21 */5 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_moneyTree.js,wake-system=true,timeout=30s
 # 京东加速
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_speed.js,wake-system=true
 # 滴滴出行
