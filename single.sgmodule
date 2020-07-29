@@ -17,7 +17,7 @@ cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Scr
 cron "0 0-23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,wake-system=true
 # 腾讯新闻
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
-cron "0 */5 8-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js,wake-system=true
+cron "0 */5 8-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,wake-system=true
 # > 京东农场
 cron "2 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js,wake-system=true
 # > 京东萌宠
