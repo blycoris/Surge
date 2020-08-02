@@ -6,10 +6,10 @@
 # 10010
 # 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 # 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
-cron "2 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true,timeout=30s
+cron "2 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true,timeout=30
 # 京东
 访问bean.m.jd.com并签到
-cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,timeout=30s
+cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,timeout=30
 # 趣头条
 # 打开 APP 进入签到:  `右上角` > `签到`
 # 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
@@ -30,5 +30,7 @@ cron "11 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Qua
 cron "21 */5 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree2.js,wake-system=true
 # 京东加速
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_speed.js,wake-system=true
+# 京东818
+cron "1 0-18/6 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_818.js,wake-system=true
 # 微博
 cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,wake-system=true
