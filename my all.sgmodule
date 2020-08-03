@@ -24,7 +24,7 @@ cron "7 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scri
 cron "8 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,wake-system=true
 # 京东
 访问bean.m.jd.com并签到
-cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,timeout=30
+cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true
 # 京东到家
 访问APP签到一次
 cron "10 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,wake-system=true
@@ -58,7 +58,7 @@ cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Qu
 # > 京东萌宠
 cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js,wake-system=true
 # > 京东宠汪汪
-cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true
+cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true
 # > 京东种豆得豆
 cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js,wake-system=true
 # 京东摇钱树
@@ -67,6 +67,8 @@ cron "21 */5 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Quantu
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_speed.js,wake-system=true
 # 京东818
 cron "1 0-18/6 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_818.js,wake-system=true
+#京东取消关注
+cron "55 23 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_unsubscribe.js,wake-system=true
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,wake-system=true
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
