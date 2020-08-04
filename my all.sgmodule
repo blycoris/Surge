@@ -58,7 +58,7 @@ cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/Qu
 # > 京东萌宠
 cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js,wake-system=true
 # > 京东宠汪汪
-cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js,wake-system=true
+cron "0 */3 * * *" script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_joy.js,wake-system=true
 # > 京东种豆得豆
 cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js,wake-system=true
 # 京东摇钱树
