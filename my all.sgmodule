@@ -60,9 +60,9 @@ cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/sc
 # > 京东宠汪汪
 cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=300
 # 宠旺旺偷好友积分与狗粮
-cron "0 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
+cron "2 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
 # 宠旺旺兑换
-cron "0 0-16/4 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,wake-system=true
+cron "1 0-16/4 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,wake-system=true
 # > 京东种豆得豆
 cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,wake-system=true,timeout=300
 # 京东摇钱树
