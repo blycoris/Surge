@@ -6,7 +6,7 @@
 # 10010
 # 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 # 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
-cron "1 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true,debug=true
+#cron "1 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true,debug=true
 # 人人视频
 # 打开 APP, 访问下`个人中心`
 cron "3 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,wake-system=true
@@ -62,7 +62,7 @@ cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/script
 # 宠旺旺偷好友积分与狗粮
 cron "2 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
 # 宠旺旺兑换
-cron "1 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,wake-system=true
+cron "15 0 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,wake-system=true
 # > 京东种豆得豆
 cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,wake-system=true,timeout=300
 # 京东摇钱树
