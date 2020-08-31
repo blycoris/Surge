@@ -66,7 +66,7 @@ hostname = *.youth.cn, ios.baertt.com
 ~~~~~~~~~~~~~~~~
 
 */
-const setnotify = 50  //通知间隔，默认抽奖每50次通知一次，如需关闭全部通知请设为0
+const setnotify = 0  //通知间隔，默认抽奖每50次通知一次，如需关闭全部通知请设为0
 const resplogs = false;   //调试日志开关为false或true
 
 const CookieName = "中青看点"
