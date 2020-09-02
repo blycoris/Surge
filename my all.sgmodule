@@ -52,7 +52,7 @@ cron "14 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "15 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,wake-system=true
 # 腾讯新闻
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
-#cron "0 */4 7-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,wake-system=true
+cron "0 */4 7-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,wake-system=true,timeout=300
 # > 京东农场
 cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,wake-system=true,timeout=300
 # > 京东萌宠
