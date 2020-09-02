@@ -70,8 +70,8 @@ cron "21 */5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/script
 # 京东加速
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js,wake-system=true
 # 京小超
-京小超 = type=cron,cronexp=11 1-23/5 * * *,wake-system=1,timeout=3000,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js
-京小超领蓝币 = type=cron,cronexp=11 8 * * *,wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js,wake-system=true,timeout=3000
+cron "11 8 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js,wake-system=true,timeout=300
 # 京东818
 #cron "1,3 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js,wake-system=true
 #京东取消关注
@@ -82,7 +82,7 @@ cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task
 # 115
 cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js,wake-system=true
 # 便利蜂
-cron "20 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,wake-system=true
+#cron "20 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,wake-system=true
 # 网易新闻
 cron "23 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,wake-system=true
 # 苏宁易购
