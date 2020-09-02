@@ -82,7 +82,7 @@ cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task
 # 115
 cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js,wake-system=true
 # 便利蜂
-#cron "20 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,wake-system=true
+cron "20 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,wake-system=true
 # 网易新闻
 cron "23 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,wake-system=true
 # 苏宁易购
