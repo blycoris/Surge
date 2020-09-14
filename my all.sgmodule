@@ -54,11 +54,11 @@ cron "15 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 cron "0 */4 7-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,wake-system=true,timeout=300
 # > 京东农场
-cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,wake-system=true,timeout=300
+cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,wake-system=true,timeout=3000
 # > 京东萌宠
-cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,wake-system=true,timeout=300
+cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,wake-system=true,timeout=3000
 # > 京东宠汪汪
-cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=300
+cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=3000
 # 宠旺旺偷好友积分与狗粮
 cron "2 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
 # 宠旺旺兑换
@@ -103,7 +103,7 @@ cron "30 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 # 吾爱破解
 cron "31 0,1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,wake-system=true
 # 中青看点
-cron "*/5 0-11 * * *" script-path=https://raw.githubusercontent.com/blycoris/Surge/master/youth.js,wake-system=true,script-update-interval=0,timeout=300
+cron "*/12 0-23 * * *" script-path=https://raw.githubusercontent.com/blycoris/Surge/master/youth.js,wake-system=true,script-update-interval=0,timeout=300
 # > 百果园
 cron "31 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js,wake-system=true
 # 分期乐
