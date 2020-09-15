@@ -3,10 +3,6 @@
 
 [Script]
 # 定时签到
-# 10010
-# 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
-# 2首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
-cron "2 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true,timeout=30
 # 京东
 访问bean.m.jd.com并签到
 cron "9 0,1,8,10 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,timeout=300
@@ -19,17 +15,17 @@ cron "0 0-23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 cron "0 */5 8-22 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,wake-system=true
 # > 京东农场
-cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,wake-system=true,timeout=300
+cron "7 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,wake-system=true,timeout=300
 # > 京东萌宠
-cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,wake-system=true,timeout=300
+cron "9 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,wake-system=true,timeout=300
 # > 京东宠汪汪
-cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=300
+cron "1 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=300
 # 宠旺旺偷好友积分与狗粮
 cron "0 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
 # 宠旺旺兑换
 cron "15 0 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,wake-system=true
 # > 京东种豆得豆
-cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,wake-system=true
+cron "10 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,wake-system=true
 # 京东摇钱树
 cron "21 */5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js,wake-system=true,timeout=300
 # 京东加速
