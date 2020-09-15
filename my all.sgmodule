@@ -76,8 +76,10 @@ cron "11 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js,wake-system=true,timeout=300
 # 京东818
 #cron "1,3 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js,wake-system=true
-#京东取消关注
+# 京东取消关注
 cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js,wake-system=true
+# 京喜
+cron "7 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,wake-system=true,timeout=300
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,wake-system=true
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
