@@ -42,6 +42,6 @@ cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts
 # 微博
 cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,wake-system=true
 # 中青看点
-cron "*/5 0-20 * * *" script-path=https://raw.githubusercontent.com/blycoris/Surge/master/youth.js,wake-system=true,script-update-interval=0,timeout=300
+cron "*/5 0-20 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,wake-system=true,script-update-interval=0,timeout=300
 # 京喜
 cron "7 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,wake-system=true,timeout=300
