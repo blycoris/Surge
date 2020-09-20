@@ -83,12 +83,8 @@ cron "7 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,wake-system=true
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
-# 115
-cron "19 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js,wake-system=true
 # 网易新闻
 cron "23 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,wake-system=true
-# 苏宁易购
-cron "24 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,wake-system=true
 # 微博
 cron "25 0,1 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,wake-system=true
 # 新浪新闻
@@ -108,5 +104,3 @@ cron "*/4 0-23 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scrip
 cron "31 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js,wake-system=true
 # 分期乐
 cron "32 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js,wake-system=true
-# 太好购
-cron "33 0,1 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/thg.js,wake-system=true
