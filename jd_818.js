@@ -46,7 +46,7 @@ if ($.isNode()) {
 
 const JD_API_HOST = 'https://rdcseason.m.jd.com/api/';
 const activeEndTime = '2020-10-09';
-const helpCode = ['46d44492-ea20-445a-832c-e46b2610003c', 'a465e772-deec-4d79-bbd9-d7afeadc39f2', 'd5e04652-673b-43bc-8ffb-d564fc9a631c', '52a665fb-e193-4844-adb4-79e300c5145a', 'e545451b-1afe-419c-aa6b-2f94ef6176b4', '3a4c69d6-f5d7-4ce2-bd71-7efaa9844450', '744df2c1-7556-44a1-ab64-e9afe77820fb', '876b526b-c5ad-4feb-9500-263f984bb1ec'];
+const helpCode = ['46d44492-ea20-445a-832c-e46b2610003c', 'a465e772-deec-4d79-bbd9-d7afeadc39f2', 'd5e04652-673b-43bc-8ffb-d564fc9a631c', '52a665fb-e193-4844-adb4-79e300c5145a', 'e545451b-1afe-419c-aa6b-2f94ef6176b4', '3a4c69d6-f5d7-4ce2-bd71-7efaa9844450', '744df2c1-7556-44a1-ab64-e9afe77820fb', '876b526b-c5ad-4feb-9500-263f984bb1ec', '863a7bd2-5a8d-4dc9-b86e-c32c9e0e2859', 'ec2a0535-3f54-439d-bdf7-b05450c53460', '0cd78f11-4a3a-450e-a7d2-6faa83f25711'];
 !(async () => {
   if (!cookiesArr[0]) {
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/', {"open-url": "https://bean.m.jd.com/"});
