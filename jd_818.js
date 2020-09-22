@@ -541,6 +541,7 @@ function toHelp(code) {
           console.log(`${$.name} API请求失败，请检查网路重试`)
         } else {
           data = JSON.parse(data);
+          console.log(data)
         }
       } catch (e) {
         $.logErr(e, resp)
