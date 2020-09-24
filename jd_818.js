@@ -46,7 +46,7 @@ if ($.isNode()) {
 
 const JD_API_HOST = 'https://rdcseason.m.jd.com/api/';
 const activeEndTime = '2020-10-09';
-const helpCode = ['ca879abf-c1b4-4d82-8a40-8a340aaff784', '47ac38b8-10c1-4803-b10f-22e44a8923aa', '71872074-ad8c-4b1b-976f-d304a1458157', 'ca879abf-c1b4-4d82-8a40-8a340aaff784', '38c7dbb9-f383-46e3-b8f4-8b5968790147', 'bbfcf988-198f-4431-bc9a-1dd07c22d42d', 'fff973c0-8c89-4494-89ef-8c4c0c59e340', '0dc2101f-3b04-48a1-93f8-1186d6d647da', 'addcf7a1-4cc1-4c86-ad8d-f2021e98ea74', '9c0391c6-dbf0-4e35-88be-cece962d482c', '91c45963-b823-4492-b6ec-1a69a9788d6a'];
+const helpCode = ['ca879abf-c1b4-4d82-8a40-8a340aaff784', '47ac38b8-10c1-4803-b10f-22e44a8923aa', '71872074-ad8c-4b1b-976f-d304a1458157', '4b85fe60-dbd8-442c-8259-f184069395ff', 'd7ba644e-8d41-4537-974b-640027ec9ea4', 'e500fd9b-d4cc-4df8-a137-c6eabf2bfd57', 'fff973c0-8c89-4494-89ef-8c4c0c59e340', '0dc2101f-3b04-48a1-93f8-1186d6d647da', 'addcf7a1-4cc1-4c86-ad8d-f2021e98ea74', '9c0391c6-dbf0-4e35-88be-cece962d482c', '91c45963-b823-4492-b6ec-1a69a9788d6a'];
 !(async () => {
   if (!cookiesArr[0]) {
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/', {"open-url": "https://bean.m.jd.com/"});
