@@ -58,7 +58,7 @@ cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/sc
 # > 京东萌宠
 cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,wake-system=true,timeout=3000
 # > 京东宠汪汪
-cron "17 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=3000
+cron "2 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=3000
 # 宠旺旺偷好友积分与狗粮
 cron "2 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
 # 宠旺旺兑换
@@ -75,7 +75,7 @@ cron "11 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/
 # 进店领豆
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js,wake-system=true,timeout=300
 # 京东818
-cron "1,3 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js,wake-system=true
+#cron "1,3 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js,wake-system=true
 # 京东取消关注
 cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js,wake-system=true
 # 京喜
