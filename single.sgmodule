@@ -31,8 +31,8 @@ cron "21 */5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/script
 # 京东加速
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js,wake-system=true
 # 京小超
-京小超 = type=cron,cronexp=11 1-23/5 * * *,wake-system=1,timeout=2000,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js
-京小超领蓝币 = type=cron,cronexp=11 0 * * *,wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js,wake-system=true,timeout=3000
+cron "0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js,wake-system=true,timeout=300
 # 进店领豆
 cron "9 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js,wake-system=true,timeout=300
 # 京东818
