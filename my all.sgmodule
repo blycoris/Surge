@@ -54,30 +54,30 @@ cron "15 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scrip
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 #cron "0 */4 7 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,wake-system=true,timeout=300
 # > 京东农场
-cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,wake-system=true,timeout=3000
+cron "22 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js,wake-system=true,timeout=3000
 # > 京东萌宠
-cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,wake-system=true,timeout=3000
+cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js,wake-system=true,timeout=3000
 # > 京东宠汪汪
-cron "2 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=true,timeout=3000
+cron "2 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js,wake-system=true,timeout=3000
 # 宠旺旺偷好友积分与狗粮
-cron "2 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
+cron "2 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
 # 宠旺旺兑换
-cron "15 0 0,8,12 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,wake-system=true
+cron "15 0 0,8,12 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js,wake-system=true
 # > 京东种豆得豆
-cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,wake-system=true,timeout=300
+cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js,wake-system=true,timeout=300
 # 京东摇钱树
-cron "21 */12 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js,wake-system=true,timeout=300
+cron "21 */12 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_moneyTree.js,wake-system=true,timeout=300
 # 京东加速
-cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js,wake-system=true
+cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_speed.js,wake-system=true
 # 京小超
-cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js,wake-system=true,timeout=3000
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js,wake-system=true,timeout=300
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js,wake-system=true,timeout=3000
+cron "0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,wake-system=true,timeout=300
 # 进店领豆
-cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js,wake-system=true,timeout=300
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,wake-system=true,timeout=300
 # 京东818
-cron "0,2 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js,wake-system=true
+cron "0,2 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js,wake-system=true
 # 京东取消关注
-cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js,wake-system=true
+cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js,wake-system=true
 # 京喜
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,wake-system=true,timeout=300
 # 滴滴出行
@@ -102,5 +102,3 @@ cron "31 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/ma
 cron "*/10 0-23 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,wake-system=true,script-update-interval=0,timeout=300
 # > 百果园
 cron "31 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js,wake-system=true
-# 分期乐
-#cron "32 0,1 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js,wake-system=true
