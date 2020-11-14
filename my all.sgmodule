@@ -31,11 +31,6 @@ cron "10 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/m
 # 贴吧
 # 打开App,点击'我的'
 cron "11 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
-# 趣头条
-# 打开 APP 进入签到:  `右上角` > `签到`
-# 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
-# 首页金币奖励:此Cookie在首页的推荐中随机出现,随机获取,并不一定会出现。
-#cron "0 0-23 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,wake-system=true
 # 饿了么
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
 cron "12 0 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,wake-system=true
@@ -61,8 +56,6 @@ cron "16 7,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd
 cron "2 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js,wake-system=true,timeout=3000
 # 宠旺旺偷好友积分与狗粮
 cron "2 0,1,6,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js,wake-system=true,timeout=300
-# 宠旺旺兑换
-cron "15 0 0,8,12 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js,wake-system=true
 # > 京东种豆得豆
 cron "18 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js,wake-system=true,timeout=300
 # 京东摇钱树
@@ -71,11 +64,8 @@ cron "21 */12 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_sc
 cron "0 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_speed.js,wake-system=true
 # 京小超
 cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js,wake-system=true,timeout=3000
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,wake-system=true,timeout=300
 # 进店领豆
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,wake-system=true,timeout=300
-# 京东818
-#cron "0,2 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js,wake-system=true
 # 京东取消关注
 cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js,wake-system=true
 # 京喜
@@ -83,8 +73,6 @@ cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/ma
 # 滴滴出行
 cron "0 6 0,1 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,wake-system=true
 cron "0 59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,wake-system=true
-# 网易新闻
-cron "23 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,wake-system=true
 # 微博
 cron "25 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,wake-system=true
 # 新浪新闻
