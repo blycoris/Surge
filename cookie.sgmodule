@@ -81,7 +81,7 @@ http-request ^https:\/\/cxdng\.cpic\.com\.cn\/taieshop\/api\/CustomerFansInfo\/G
 # 京喜
 http-request https:\/\/wq\.jd\.com\/pgcenter\/sign\/QueryPGDetail\?sceneval=2&pageSize=20 script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
 # 东东小窝
-http-response ^https\:\/\/lkyl\.dianpusoft\.cn\/api\/user\-info\/login script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/ddxw.cookie.js
+京东小窝cookie = type=http-request,pattern=^https\:\/\/lkyl\.dianpusoft\.cn\/api\/user\-info\/login,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/ddxw.cookie.js
 
 [MITM]
 hostname = %APPEND%  *.iqiyi.com, *.bilibili.com, *.rrys2019.com, ios.zmzapi.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, *.rr.tv, i.meituan.com, api.m.jd.com, tieba.baidu.com, c.tieba.baidu.com, api.1sapp.com, act.10010.com, m.client.10010.com, daojia.jd.com, h5.ele.me, mp.weixin.qq.com, *.video.qq.com, mobwsa.ximalaya.com, promotion.waimai.meituan.com, music.163.com, api.inews.qq.com, draw.jdfcloud.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com， proapi.115.com, webapi.qmai.cn, *.m.163.com, app.nio.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, api.weibo.cn, pay.sc.weibo.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, user-api-prd-mx.wandafilm.com, *.smzdm.com,  www.52pojie.cn, wx-mini.pagoda.com.cn, pm.m.fenqile.com, cxdng.cpic.com.cn, h5.bianlifeng.com, wq.jd.com, lkyl.dianpusoft.cn
