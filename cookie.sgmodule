@@ -73,11 +73,6 @@ http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubuserc
 http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 # > 百果园
 http-request ^https:\/\/wx-mini.pagoda.com.cn\/api\/v1\/wxmini\/signIn\/customer script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.cookie.js
-# 分期乐
-http-request ^https://pm\.m\.le\.com/route0014/star/sign/sign.json script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
-http-request ^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
-# 太好购
-http-request ^https:\/\/cxdng\.cpic\.com\.cn\/taieshop\/api\/CustomerFansInfo\/GetFansInfo script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/thg.cookie.js
 # 京喜
 http-request https:\/\/wq\.jd\.com\/pgcenter\/sign\/QueryPGDetail\?sceneval=2&pageSize=20 script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
 # 东东小窝
