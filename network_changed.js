@@ -20,7 +20,7 @@ let ALLOWLIST = [
     ];
 let BLOCKLIST = [
             "让老人和孩子先上",
-            "home_ssid2"
+            "free_ssid2"
     ];
 
 //The default outbound: 'Direct' or 'Rule' or 'Global-proxy'.
