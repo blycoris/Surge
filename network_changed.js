@@ -19,7 +19,7 @@ let ALLOWLIST = [
             "home_ssid2"
     ];
 let BLOCKLIST = [
-            "free_ssid1",
+            "让老人和孩子先上",
             "free_ssid2"
     ];
 
