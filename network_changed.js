@@ -20,7 +20,7 @@ let ALLOWLIST = [
     ];
 let BLOCKLIST = [
             "让老人和孩子先上",
-            "free_ssid2"
+            "EWTC - A digital MKTing agency"
     ];
 
 //The default outbound: 'Direct' or 'Rule' or 'Global-proxy'.
